@@ -101,6 +101,8 @@ def game():
       jogar = int(input("Deseja jogar novamente? \n 0:Sair \n 1:continuar \n" ))
       if jogar == 1:
         menu()
+      else:
+        print("Saindo...")
       break
     if jogada == 9:
       printBoard()
